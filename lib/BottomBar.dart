@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lazy_dude/Profile.dart';
 
 class Bottom_bar extends StatefulWidget {
   const Bottom_bar({Key? key}) : super(key: key);
@@ -15,7 +16,8 @@ class _Bottom_barState extends State<Bottom_bar> {
     Text("Home", style: optionStyle),
     Text("My Searches", style: optionStyle),
     Text("Schedule", style: optionStyle),
-    Text("Profile", style: optionStyle),
+
+    Profile(),
   ];
 
   void _onTapped(int index){
