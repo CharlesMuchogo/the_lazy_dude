@@ -29,11 +29,13 @@ class _ProfileState extends State<Profile> {
                           style:
                               TextStyle(color: Colors.redAccent, fontSize: 15)),
                       const SizedBox(width: 5),
-                      Text("Grand Master",
-                          style: TextStyle(
-                              color: Colors.red[900],
-                              fontWeight: FontWeight.w500,
-                              fontSize: 18)),
+                      Text(
+                        "Grand Master",
+                        style: TextStyle(
+                            color: Colors.red[900],
+                            fontWeight: FontWeight.w500,
+                            fontSize: 18),
+                      ),
                     ],
                   )
                 ],
@@ -61,20 +63,24 @@ class _ProfileState extends State<Profile> {
             ListTile(
               title: Text("Name",
                   style: TextStyle(color: Colors.grey[500], fontSize: 15)),
-              subtitle: Text("Eleli Ayub",
-                  style: TextStyle(
-                      color: Colors.grey[900],
-                      fontWeight: FontWeight.w500,
-                      fontSize: 30)),
+              subtitle: Text(
+                "Eleli Ayub",
+                style: TextStyle(
+                    color: Colors.grey[900],
+                    fontWeight: FontWeight.w500,
+                    fontSize: 30),
+              ),
             ),
             ListTile(
               title: Text("Institution",
                   style: TextStyle(color: Colors.grey[500], fontSize: 15)),
-              subtitle: Text("Multimedia University",
-                  style: TextStyle(
-                      color: Colors.grey[700],
-                      fontWeight: FontWeight.w500,
-                      fontSize: 20)),
+              subtitle: Text(
+                "Multimedia University",
+                style: TextStyle(
+                    color: Colors.grey[700],
+                    fontWeight: FontWeight.w500,
+                    fontSize: 20),
+              ),
             ),
             ListTile(
               title: Text("Field",
@@ -97,11 +103,13 @@ class _ProfileState extends State<Profile> {
             ListTile(
               title: Text("Specialty",
                   style: TextStyle(color: Colors.grey[500], fontSize: 15)),
-              subtitle: Text("Accounting",
-                  style: TextStyle(
-                      color: Colors.grey[700],
-                      fontWeight: FontWeight.w500,
-                      fontSize: 20)),
+              subtitle: Text(
+                "Accounting",
+                style: TextStyle(
+                    color: Colors.grey[700],
+                    fontWeight: FontWeight.w500,
+                    fontSize: 20),
+              ),
             ),
             ListTile(
               title: Text("Bio",
