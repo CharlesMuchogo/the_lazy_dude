@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lazy_dude/My_Searches.dart';
 import 'package:lazy_dude/Profile.dart';
 
 class Bottom_bar extends StatefulWidget {
@@ -14,7 +15,7 @@ class _Bottom_barState extends State<Bottom_bar> {
   static const TextStyle optionStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.redAccent);
   static const List<Widget> _widget_options = <Widget>[
     Text("Home", style: optionStyle),
-    Text("My Searches", style: optionStyle),
+    My_Searches(),
     Text("Schedule", style: optionStyle),
 
     Profile(),

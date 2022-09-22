@@ -171,12 +171,12 @@ class _ProfileState extends State<Profile> {
                         Text("Bio",
                             style: TextStyle(color: Colors.grey[500],fontSize: 15)
                         ),
-                        Text("Hello I code",
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(color: Colors.grey[700],
-                                fontWeight: FontWeight.w500, fontSize: 20)
-                        ),
-                      ],
+                        Text("Hello  code.Hello  code. Hello  code. Hello  code. Hello  code.",
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(color: Colors.grey[700],
+                                    fontWeight: FontWeight.w500, fontSize: 20)
+                            ),
+                          ],
                     )
 
                   ],
